@@ -37,6 +37,10 @@ addTask.addEventListener('click', () => {
     // -------- Edit Task --------
     editButton.addEventListener('click', () => {
         newTask.contentEditable = true
+
+        if (contentEditable = true) {
+            editButton.textContent = 'Done'
+        }
     })
 
 })
